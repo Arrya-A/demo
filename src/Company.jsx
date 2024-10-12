@@ -1,4 +1,5 @@
 import React from 'react'
+import myStyles from './styles.module.css'
 
 const Company = () => {
     const allEmployees = [
@@ -9,7 +10,7 @@ const Company = () => {
     ]
     return (
         <>
-            <h3 className='text-center'>All Employee List</h3>
+            <h3 className={myStyles.group3}>All Employee List</h3>
             <div className='container'>
                 <table className="table shadow">
                     <thead>

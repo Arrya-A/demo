@@ -1,0 +1,15 @@
+/* styles for employee.jsx */
+.group1 {
+    color: green;
+    font-weight: 600;
+}
+
+.group2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* styles for company.jsx */
+.group3 {
+    text-align: center;
+}
